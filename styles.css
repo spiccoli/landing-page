@@ -6,11 +6,11 @@
 #sectionOne {
 background-color: #1f2937;
 }
- .navbar{
+ #navbar{
     display: flex;
     flex-direction: row;
  }
-#logo {
+.logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
@@ -35,14 +35,15 @@ background-color: #1f2937;
     padding-top: 25px;
 }
 .ltext {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 900;
     color:#f9faf8;
+    font-family: Verdana, sans-serif;
 }
 #pleft{
     color: #f9faf8;
     font-size: 18px;
-    margin-left: 165    px;
+    margin-left: 165px;
     margin-right: 160px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -72,6 +73,26 @@ background-color: #1f2937;
 
 /* SECTION 2 // SECTION 2 // SECTION 2 // SECTION 2*/
 #sectionTwo {
+ background-color: white;
+}
+.servTitle {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.sqlist {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.sqi{
+    border: 4px solid #3882F6;
+    border-radius: 6px;
+    padding: 50px;
 
 }
 
