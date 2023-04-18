@@ -3,23 +3,18 @@
     padding: 0px;
     margin: 0px;
 }
-#main {
+#sectionOne {
 background-color: #1f2937;
 }
-.navbar{
+ .navbar{
     display: flex;
     flex-direction: row;
-}
-/*navleft */
+ }
 #logo {
     font-size: 24px;
     color: #f9faf8;
-    padding-left: 110px;
     font-weight: bold;
-    font-family: Verdana, sans-serif;
 }
-
-/*navright */
 .navitems{
     display: flex;
 }
@@ -28,7 +23,6 @@ background-color: #1f2937;
     color: #e5e7eb;
     margin: 15px;
 }
-
 .navleft,.navright{
     display: flex;
     width: 50%;
@@ -37,8 +31,9 @@ background-color: #1f2937;
 }
 #content{
     display: flex;
+    padding-bottom: 70px;
+    padding-top: 25px;
 }
-/*contentleft */
 .ltext {
     font-size: 48px;
     font-weight: 900;
@@ -47,12 +42,12 @@ background-color: #1f2937;
 #pleft{
     color: #f9faf8;
     font-size: 18px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    margin-left: 165    px;
+    margin-right: 160px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
-button{
+.signup{
     background-color: #3882F6;
     color: #f9faf8;
     height: 40px;
@@ -60,12 +55,11 @@ button{
     border-radius: 7px;
     font-family:  sans-serif;
 }
-/*contentright */
 .contentright img{
-    width: 600px;
+    width: 550px;
     height: auto;
-    margin: 50px;
     border-radius: 35px;
+    margin-right: 155px;
 }
 .contentright, .contentleft{
     display: flex;
@@ -73,7 +67,11 @@ button{
     justify-content: center;
     align-items: center;
     margin: 20px;    
-   /* border: 2px solid red; */
+
 }
 
+/* SECTION 2 // SECTION 2 // SECTION 2 // SECTION 2*/
+#sectionTwo {
+
+}
 
