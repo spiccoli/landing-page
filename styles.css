@@ -36,13 +36,11 @@ background-color: #1f2937;
 
 }
 
-/* CONTENT 2 */
+/* CONTENT */
 #content{
     display: flex;
     padding-bottom: 70px;
     padding-top: 25px;
-    display: flex;
-    flex: 1;
     justify-content: center;
 }
 .contentleft, .contentright{
@@ -85,9 +83,11 @@ background-color: #1f2937;
 /* SECTION 2 // SECTION 2 // SECTION 2 // SECTION 2*/
 #sectionTwo {
  background-color: white;
+ padding-bottom: 110px;
+ padding-top: 40px;
 }
 .servTitle {
-    font-size: 24px;
+    font-size: 26px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     justify-content: center;
@@ -98,18 +98,67 @@ background-color: #1f2937;
     display: flex;
     gap: 50px;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .sqi{
     border: 4px solid #3882F6;
     border-radius: 6px;
     padding: 70px;
 }
-#sqtext {
+#sqtexts {
     display: flex;  
+    justify-content: center;
+    gap: 134px;
+    padding-top: 8px;
 }
-.sqt {
-    font-weight: 100;
-    font-size: 25px;   
+/* SECTION 3 // SECTION 3 // SECTION 3 // SECTION 3*/
+#sectionThree {
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-self: center;
+    display: flex;
 }
-
+#sec3text {
+    color: #1f2937;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.inspirational {
+    font-size: 28px;
+    font-style: italic;
+    max-width: 574px;
+    font-weight: 500;
+}
+.thor {
+    margin-left: 377px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* SECTION 4 // SECTION 4 // SECTION 4 // SECTION 4*/
+#sectionFour {
+    background-color: white;
+    padding-bottom: 140px;
+    padding-top: 140px;
+}
+.cta {
+    display: flex;
+    justify-content: center;
+}
+.rectangle {
+    border: 1px solid #3882F6;
+    background-color: #3882F6;
+    width: 850px;
+    padding: 60px;
+    border-radius: 10px;
+}
+footer {
+    padding-top: 50px;
+    background-color: #1f2937;
+    justify-content: center;
+    display: flex;
+}
+footer p {
+    align-self: center;
+    color: white;
+    font-size: 11px;
+}
